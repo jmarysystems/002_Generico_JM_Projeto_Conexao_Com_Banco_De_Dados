@@ -38,6 +38,9 @@ public class Conexao_Com_Banco_De_Dados_Indice extends javax.swing.JPanel {
         jLabel5 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(204, 0, 51));
@@ -49,11 +52,41 @@ public class Conexao_Com_Banco_De_Dados_Indice extends javax.swing.JPanel {
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(204, 0, 51));
-        jLabel11.setText("Conexão Com Banco De Dados > Derby > Alone ");
+        jLabel11.setText("Conexão Com Banco De Dados > Genérico ");
         jLabel11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jLabel11MousePressed(evt);
+            }
+        });
+
+        jLabel12.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(204, 0, 51));
+        jLabel12.setText("Conexão Com Banco De Dados > Mysql > Network ");
+        jLabel12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel12MousePressed(evt);
+            }
+        });
+
+        jLabel13.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(204, 0, 51));
+        jLabel13.setText("Conexão Com Banco De Dados > Mysql > Heroku ");
+        jLabel13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel13MousePressed(evt);
+            }
+        });
+
+        jLabel14.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(204, 0, 51));
+        jLabel14.setText("Conexão Com Banco De Dados > Derby > Alone ");
+        jLabel14.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel14.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel14MousePressed(evt);
             }
         });
 
@@ -66,7 +99,10 @@ public class Conexao_Com_Banco_De_Dados_Indice extends javax.swing.JPanel {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 790, Short.MAX_VALUE)
-                    .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -78,7 +114,13 @@ public class Conexao_Com_Banco_De_Dados_Indice extends javax.swing.JPanel {
                 .addComponent(jLabel20)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel11)
-                .addContainerGap(271, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel14)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel12)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel13)
+                .addContainerGap(178, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Índice", jPanel1);
@@ -111,14 +153,62 @@ public class Conexao_Com_Banco_De_Dados_Indice extends javax.swing.JPanel {
             
             Home.ControleTabs.removerTabSelecionado();
             Home.ControleTabs.AddTabsAoHome("Conexao Com Banco De Dados", "livroTp.gif", 
-                    new Conexao_Com_Banco_De_Dados_Derby_Alone(Home) );
+                    new Conexao_Com_Banco_De_Dados_Generico(Home) );
 
             Exportando.fechar();
         } catch( Exception e ){ Exportando.fechar(); e.printStackTrace(); } } }.start();
     }//GEN-LAST:event_jLabel11MousePressed
+
+    private void jLabel12MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel12MousePressed
+        new Thread() {   @Override public void run() { try { Thread.sleep( 1 );
+            Exportando = new Exportando("ABRINDO...");
+            Exportando.setVisible(true);Exportando.pbg.setMinimum(0);
+            Exportando.pbg.setMaximum( 100 );
+            Exportando.pbg.setValue( 50 );
+            
+            Home.ControleTabs.removerTabSelecionado();
+            Home.ControleTabs.AddTabsAoHome("Conexao Com Banco De Dados", "livroTp.gif", 
+                    new Conexao_Com_Banco_De_Dados_Mysql_Network(Home) );
+
+            Exportando.fechar();
+        } catch( Exception e ){ Exportando.fechar(); e.printStackTrace(); } } }.start();
+    }//GEN-LAST:event_jLabel12MousePressed
+
+    private void jLabel13MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel13MousePressed
+        new Thread() {   @Override public void run() { try { Thread.sleep( 1 );
+            Exportando = new Exportando("ABRINDO...");
+            Exportando.setVisible(true);Exportando.pbg.setMinimum(0);
+            Exportando.pbg.setMaximum( 100 );
+            Exportando.pbg.setValue( 50 );
+            
+            Home.ControleTabs.removerTabSelecionado();
+            Home.ControleTabs.AddTabsAoHome("Conexao Com Banco De Dados", "livroTp.gif", 
+                    new Conexao_Com_Banco_De_Dados_Mysql_Heroku(Home) );
+
+            Exportando.fechar();
+        } catch( Exception e ){ Exportando.fechar(); e.printStackTrace(); } } }.start();
+    }//GEN-LAST:event_jLabel13MousePressed
+
+    private void jLabel14MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel14MousePressed
+        new Thread() {   @Override public void run() { try { Thread.sleep( 1 );
+            Exportando = new Exportando("ABRINDO...");
+            Exportando.setVisible(true);Exportando.pbg.setMinimum(0);
+            Exportando.pbg.setMaximum( 100 );
+            Exportando.pbg.setValue( 50 );
+            
+            Home.ControleTabs.removerTabSelecionado();
+            Home.ControleTabs.AddTabsAoHome("Conexao Com Banco De Dados", "livroTp.gif", 
+                    new Conexao_Com_Banco_De_Dados_Derby_Alone(Home) );
+
+            Exportando.fechar();
+        } catch( Exception e ){ Exportando.fechar(); e.printStackTrace(); } } }.start();
+    }//GEN-LAST:event_jLabel14MousePressed
   
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;

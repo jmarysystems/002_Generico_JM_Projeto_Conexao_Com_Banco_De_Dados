@@ -1684,7 +1684,7 @@ public class Conexao_Com_Banco_De_Dados_Derby_Alone extends javax.swing.JPanel {
             String senhaY3 = "";   try{ senhaY3  = senhaY2.replace(" ", "");        } catch( Exception e ){}
             String senhaY4 = "";   try{ senhaY4  = senhaY3.replace(",", "");        } catch( Exception e ){}
             
-            Home.setar_Banco_de_Dados(properties, usuario, senhaY4);
+            //Home.setar_Banco_de_Dados(properties, usuario, senhaY4);
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                         
             Object[]       itens = { "MOSTRAR ARQUIVO .PROPERTIES", "NÃO MOSTRAR" };
@@ -1814,11 +1814,11 @@ public class Conexao_Com_Banco_De_Dados_Derby_Alone extends javax.swing.JPanel {
             
             if( driver.equals("org.apache.derby.jdbc.EmbeddedDriver") ){
                 
-                DB_Bean.driverAlone = driver;
+                //DB_Bean.driverAlone = driver;
             }
             else if( driver.equals("org.apache.derby.jdbc.ClientDriver") ){
                 
-                DB_Bean.driverNetwork = driver;
+                //DB_Bean.driverNetwork = driver;
             }
                         
         } catch( Exception e ){  } } }.start();
@@ -2201,7 +2201,7 @@ public class Conexao_Com_Banco_De_Dados_Derby_Alone extends javax.swing.JPanel {
             String senhaY3 = "";   try{ senhaY3  = senhaY2.replace(" ", "");        } catch( Exception e ){}
             String senhaY4 = "";   try{ senhaY4  = senhaY3.replace(",", "");        } catch( Exception e ){}
             
-            Home.setar_Banco_de_Dados(props, usuario, senhaY4);
+            //Home.setar_Banco_de_Dados(props, usuario, senhaY4);
             
             teste_de_conexao_listarTabelasDoBanco();
             
