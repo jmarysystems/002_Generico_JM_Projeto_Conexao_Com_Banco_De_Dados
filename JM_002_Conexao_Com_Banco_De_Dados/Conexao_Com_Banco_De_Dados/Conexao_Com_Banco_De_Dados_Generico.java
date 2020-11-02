@@ -192,10 +192,6 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
         rbUser = new javax.swing.JRadioButton();
         rbHome = new javax.swing.JRadioButton();
         jButton3 = new javax.swing.JButton();
-        JPOpcao_36 = new javax.swing.JPanel();
-        taNomeUsuarioX1 = new javax.swing.JTextArea();
-        JPOpcao_38 = new javax.swing.JPanel();
-        taSeparador = new javax.swing.JTextArea();
         jPanel15 = new javax.swing.JPanel();
         JPOpcao_7 = new javax.swing.JPanel();
         jTextArea7 = new javax.swing.JTextArea();
@@ -246,6 +242,16 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
         jTextArea21 = new javax.swing.JTextArea();
         JPOpcao_35 = new javax.swing.JPanel();
         ta_URL = new javax.swing.JTextArea();
+        jPanel33 = new javax.swing.JPanel();
+        JPOpcao_36 = new javax.swing.JPanel();
+        taNomeUsuarioX1 = new javax.swing.JTextArea();
+        JPOpcao_37 = new javax.swing.JPanel();
+        jTextArea22 = new javax.swing.JTextArea();
+        jPanel34 = new javax.swing.JPanel();
+        JPOpcao_40 = new javax.swing.JPanel();
+        jTextArea23 = new javax.swing.JTextArea();
+        JPOpcao_38 = new javax.swing.JPanel();
+        taSeparador = new javax.swing.JTextArea();
         Properties_Criado = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jPanel16 = new javax.swing.JPanel();
@@ -284,7 +290,7 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
         jPanel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel1.setPreferredSize(new java.awt.Dimension(585, 458));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial", 1, 20)); // NOI18N
         jLabel1.setText("Configuração de conexão com banco de dados");
 
         rbUser.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
@@ -313,6 +319,1123 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
                 jButton3ActionPerformed(evt);
             }
         });
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(416, Short.MAX_VALUE)
+                .addComponent(rbUser)
+                .addGap(18, 18, 18)
+                .addComponent(rbHome)
+                .addGap(18, 18, 18)
+                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jButton3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(rbUser)
+                .addComponent(rbHome))
+        );
+
+        JPOpcao_7.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_7.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_7MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_7MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_7MousePressed(evt);
+            }
+        });
+
+        jTextArea7.setEditable(false);
+        jTextArea7.setColumns(20);
+        jTextArea7.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextArea7.setRows(5);
+        jTextArea7.setText("         Escolha o tipo de conexão.: ");
+        jTextArea7.setBorder(null);
+        jTextArea7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTextArea7MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jTextArea7MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jTextArea7MousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_7Layout = new javax.swing.GroupLayout(JPOpcao_7);
+        JPOpcao_7.setLayout(JPOpcao_7Layout);
+        JPOpcao_7Layout.setHorizontalGroup(
+            JPOpcao_7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_7Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextArea7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
+        );
+        JPOpcao_7Layout.setVerticalGroup(
+            JPOpcao_7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_7Layout.createSequentialGroup()
+                .addComponent(jTextArea7, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        JPOpcao_25.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_25.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_25.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_25MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_25MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_25MousePressed(evt);
+            }
+        });
+
+        cbTipoConexao.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        cbTipoConexao.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "network", "alone" }));
+        cbTipoConexao.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(201, 239, 237), 1, true));
+        cbTipoConexao.setPreferredSize(new java.awt.Dimension(212, 23));
+        cbTipoConexao.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbTipoConexaoActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_25Layout = new javax.swing.GroupLayout(JPOpcao_25);
+        JPOpcao_25.setLayout(JPOpcao_25Layout);
+        JPOpcao_25Layout.setHorizontalGroup(
+            JPOpcao_25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_25Layout.createSequentialGroup()
+                .addComponent(cbTipoConexao, 0, 309, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        JPOpcao_25Layout.setVerticalGroup(
+            JPOpcao_25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(cbTipoConexao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
+        jPanel15.setLayout(jPanel15Layout);
+        jPanel15Layout.setHorizontalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(JPOpcao_7, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(JPOpcao_25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel15Layout.setVerticalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel15Layout.createSequentialGroup()
+                .addComponent(JPOpcao_25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(JPOpcao_7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+        );
+
+        JPOpcao_9.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_9.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_9MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_9MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_9MousePressed(evt);
+            }
+        });
+
+        jTextArea8.setEditable(false);
+        jTextArea8.setColumns(20);
+        jTextArea8.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextArea8.setRows(5);
+        jTextArea8.setText("            Escolha o tipo de banco.: ");
+        jTextArea8.setBorder(null);
+        jTextArea8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTextArea8MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jTextArea8MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jTextArea8MousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_9Layout = new javax.swing.GroupLayout(JPOpcao_9);
+        JPOpcao_9.setLayout(JPOpcao_9Layout);
+        JPOpcao_9Layout.setHorizontalGroup(
+            JPOpcao_9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_9Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextArea8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
+        );
+        JPOpcao_9Layout.setVerticalGroup(
+            JPOpcao_9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_9Layout.createSequentialGroup()
+                .addComponent(jTextArea8, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        JPOpcao_24.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_24.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_24.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_24MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_24MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_24MousePressed(evt);
+            }
+        });
+
+        cbTipoBanco.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        cbTipoBanco.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "mysql", "derby", "oracle", "sqlserver", "postgresql", "firebirdsql", "odbc" }));
+        cbTipoBanco.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(201, 239, 237), 1, true));
+        cbTipoBanco.setPreferredSize(new java.awt.Dimension(212, 23));
+        cbTipoBanco.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbTipoBancoActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_24Layout = new javax.swing.GroupLayout(JPOpcao_24);
+        JPOpcao_24.setLayout(JPOpcao_24Layout);
+        JPOpcao_24Layout.setHorizontalGroup(
+            JPOpcao_24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_24Layout.createSequentialGroup()
+                .addComponent(cbTipoBanco, 0, 309, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        JPOpcao_24Layout.setVerticalGroup(
+            JPOpcao_24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(cbTipoBanco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
+        jPanel17.setLayout(jPanel17Layout);
+        jPanel17Layout.setHorizontalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(JPOpcao_9, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(JPOpcao_24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel17Layout.setVerticalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel17Layout.createSequentialGroup()
+                .addComponent(JPOpcao_24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(JPOpcao_9, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+        );
+
+        JPOpcao_10.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_10.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_10MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_10MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_10MousePressed(evt);
+            }
+        });
+
+        jTextArea9.setEditable(false);
+        jTextArea9.setColumns(20);
+        jTextArea9.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextArea9.setRows(5);
+        jTextArea9.setText("         Escolha o driver do banco.: ");
+        jTextArea9.setBorder(null);
+        jTextArea9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTextArea9MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jTextArea9MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jTextArea9MousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_10Layout = new javax.swing.GroupLayout(JPOpcao_10);
+        JPOpcao_10.setLayout(JPOpcao_10Layout);
+        JPOpcao_10Layout.setHorizontalGroup(
+            JPOpcao_10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_10Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextArea9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
+        );
+        JPOpcao_10Layout.setVerticalGroup(
+            JPOpcao_10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTextArea9, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+        );
+
+        JPOpcao_11.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_11.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_11MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_11MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_11MousePressed(evt);
+            }
+        });
+
+        cbTipoDriver.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        cbTipoDriver.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "com.mysql.cj.jdbc.Driver", "com.mysql.jdbc.Driver", "org.apache.derby.jdbc.EmbeddedDriver", "org.apache.derby.jdbc.ClientDriver", "oracle.jdbc.driver.OracleDriver", "com.microsoft.sqlserver.jdbc.SQLServerDriver", "org.postgresql.Driver", "org.firebirdsql.jdbc.FBDriver", "sun.jdbc.odbc.JdbcOdbcDriver" }));
+        cbTipoDriver.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(201, 239, 237), 1, true));
+        cbTipoDriver.setPreferredSize(new java.awt.Dimension(212, 23));
+        cbTipoDriver.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbTipoDriverActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_11Layout = new javax.swing.GroupLayout(JPOpcao_11);
+        JPOpcao_11.setLayout(JPOpcao_11Layout);
+        JPOpcao_11Layout.setHorizontalGroup(
+            JPOpcao_11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_11Layout.createSequentialGroup()
+                .addComponent(cbTipoDriver, 0, 309, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        JPOpcao_11Layout.setVerticalGroup(
+            JPOpcao_11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(cbTipoDriver, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
+        jPanel18.setLayout(jPanel18Layout);
+        jPanel18Layout.setHorizontalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(JPOpcao_10, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(JPOpcao_11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel18Layout.setVerticalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addComponent(JPOpcao_11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(JPOpcao_10, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        JPOpcao_13.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_13.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_13MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_13MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_13MousePressed(evt);
+            }
+        });
+
+        jTextArea10.setEditable(false);
+        jTextArea10.setColumns(20);
+        jTextArea10.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextArea10.setRows(5);
+        jTextArea10.setText("          Informe o nome do banco.: ");
+        jTextArea10.setBorder(null);
+        jTextArea10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTextArea10MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jTextArea10MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jTextArea10MousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_13Layout = new javax.swing.GroupLayout(JPOpcao_13);
+        JPOpcao_13.setLayout(JPOpcao_13Layout);
+        JPOpcao_13Layout.setHorizontalGroup(
+            JPOpcao_13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_13Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextArea10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
+        );
+        JPOpcao_13Layout.setVerticalGroup(
+            JPOpcao_13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTextArea10, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        JPOpcao_12.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_12.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_12MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_12MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_12MousePressed(evt);
+            }
+        });
+
+        taNomeBanco.setColumns(20);
+        taNomeBanco.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        taNomeBanco.setRows(5);
+        taNomeBanco.setText("Banco_De_Dados_00");
+        taNomeBanco.setBorder(null);
+        taNomeBanco.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                taNomeBancoFocusLost(evt);
+            }
+        });
+        taNomeBanco.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                taNomeBancoMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                taNomeBancoMouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                taNomeBancoMousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_12Layout = new javax.swing.GroupLayout(JPOpcao_12);
+        JPOpcao_12.setLayout(JPOpcao_12Layout);
+        JPOpcao_12Layout.setHorizontalGroup(
+            JPOpcao_12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_12Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(taNomeBanco, javax.swing.GroupLayout.DEFAULT_SIZE, 301, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        JPOpcao_12Layout.setVerticalGroup(
+            JPOpcao_12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(taNomeBanco, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
+        jPanel21.setLayout(jPanel21Layout);
+        jPanel21Layout.setHorizontalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel21Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(JPOpcao_13, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(JPOpcao_12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(207, Short.MAX_VALUE))
+        );
+        jPanel21Layout.setVerticalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addComponent(JPOpcao_13, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(JPOpcao_12, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        JPOpcao_18.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_18.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_18.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_18MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_18MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_18MousePressed(evt);
+            }
+        });
+
+        jTextArea15.setEditable(false);
+        jTextArea15.setColumns(20);
+        jTextArea15.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextArea15.setRows(5);
+        jTextArea15.setText("             Informe o ip do servidor.:");
+        jTextArea15.setBorder(null);
+        jTextArea15.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTextArea15MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jTextArea15MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jTextArea15MousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_18Layout = new javax.swing.GroupLayout(JPOpcao_18);
+        JPOpcao_18.setLayout(JPOpcao_18Layout);
+        JPOpcao_18Layout.setHorizontalGroup(
+            JPOpcao_18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_18Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextArea15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
+        );
+        JPOpcao_18Layout.setVerticalGroup(
+            JPOpcao_18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTextArea15, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        JPOpcao_19.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_19.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_19MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_19MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_19MousePressed(evt);
+            }
+        });
+
+        taIpServidor.setColumns(20);
+        taIpServidor.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        taIpServidor.setRows(5);
+        taIpServidor.setText("127.0.0.1");
+        taIpServidor.setBorder(null);
+        taIpServidor.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                taIpServidorFocusLost(evt);
+            }
+        });
+        taIpServidor.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                taIpServidorMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                taIpServidorMouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                taIpServidorMousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_19Layout = new javax.swing.GroupLayout(JPOpcao_19);
+        JPOpcao_19.setLayout(JPOpcao_19Layout);
+        JPOpcao_19Layout.setHorizontalGroup(
+            JPOpcao_19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_19Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(taIpServidor, javax.swing.GroupLayout.DEFAULT_SIZE, 300, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        JPOpcao_19Layout.setVerticalGroup(
+            JPOpcao_19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(taIpServidor, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        javax.swing.GroupLayout jpIpServidorLayout = new javax.swing.GroupLayout(jpIpServidor);
+        jpIpServidor.setLayout(jpIpServidorLayout);
+        jpIpServidorLayout.setHorizontalGroup(
+            jpIpServidorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jpIpServidorLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(JPOpcao_18, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(JPOpcao_19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jpIpServidorLayout.setVerticalGroup(
+            jpIpServidorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jpIpServidorLayout.createSequentialGroup()
+                .addGroup(jpIpServidorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(JPOpcao_18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(JPOpcao_19, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 1, Short.MAX_VALUE))
+        );
+
+        JPOpcao_21.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_21.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_21.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_21MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_21MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_21MousePressed(evt);
+            }
+        });
+
+        jTextArea18.setEditable(false);
+        jTextArea18.setColumns(20);
+        jTextArea18.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextArea18.setRows(5);
+        jTextArea18.setText("        Informe a porta do servidor.:");
+        jTextArea18.setBorder(null);
+        jTextArea18.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTextArea18MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jTextArea18MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jTextArea18MousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_21Layout = new javax.swing.GroupLayout(JPOpcao_21);
+        JPOpcao_21.setLayout(JPOpcao_21Layout);
+        JPOpcao_21Layout.setHorizontalGroup(
+            JPOpcao_21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_21Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextArea18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
+        );
+        JPOpcao_21Layout.setVerticalGroup(
+            JPOpcao_21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTextArea18, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        JPOpcao_20.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_20.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_20.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_20MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_20MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_20MousePressed(evt);
+            }
+        });
+
+        taPortaServidor.setColumns(20);
+        taPortaServidor.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        taPortaServidor.setRows(5);
+        taPortaServidor.setText("3306");
+        taPortaServidor.setBorder(null);
+        taPortaServidor.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                taPortaServidorFocusLost(evt);
+            }
+        });
+        taPortaServidor.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                taPortaServidorMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                taPortaServidorMouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                taPortaServidorMousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_20Layout = new javax.swing.GroupLayout(JPOpcao_20);
+        JPOpcao_20.setLayout(JPOpcao_20Layout);
+        JPOpcao_20Layout.setHorizontalGroup(
+            JPOpcao_20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_20Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(taPortaServidor, javax.swing.GroupLayout.DEFAULT_SIZE, 301, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        JPOpcao_20Layout.setVerticalGroup(
+            JPOpcao_20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(taPortaServidor, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        javax.swing.GroupLayout jpPortaServidorLayout = new javax.swing.GroupLayout(jpPortaServidor);
+        jpPortaServidor.setLayout(jpPortaServidorLayout);
+        jpPortaServidorLayout.setHorizontalGroup(
+            jpPortaServidorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jpPortaServidorLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(JPOpcao_21, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(JPOpcao_20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jpPortaServidorLayout.setVerticalGroup(
+            jpPortaServidorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addComponent(JPOpcao_21, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(JPOpcao_20, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        JPOpcao_23.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_23.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_23.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_23MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_23MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_23MousePressed(evt);
+            }
+        });
+
+        jTextArea20.setEditable(false);
+        jTextArea20.setColumns(20);
+        jTextArea20.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextArea20.setRows(5);
+        jTextArea20.setText("    Informe o endereço do banco.:");
+        jTextArea20.setBorder(null);
+        jTextArea20.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTextArea20MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jTextArea20MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jTextArea20MousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_23Layout = new javax.swing.GroupLayout(JPOpcao_23);
+        JPOpcao_23.setLayout(JPOpcao_23Layout);
+        JPOpcao_23Layout.setHorizontalGroup(
+            JPOpcao_23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_23Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextArea20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
+        );
+        JPOpcao_23Layout.setVerticalGroup(
+            JPOpcao_23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTextArea20, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        JPOpcao_22.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_22.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_22.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_22MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_22MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_22MousePressed(evt);
+            }
+        });
+
+        ta_Endereco_Banco.setColumns(20);
+        ta_Endereco_Banco.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        ta_Endereco_Banco.setRows(5);
+        ta_Endereco_Banco.setBorder(null);
+        ta_Endereco_Banco.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                ta_Endereco_BancoFocusLost(evt);
+            }
+        });
+        ta_Endereco_Banco.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                ta_Endereco_BancoMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                ta_Endereco_BancoMouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                ta_Endereco_BancoMousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_22Layout = new javax.swing.GroupLayout(JPOpcao_22);
+        JPOpcao_22.setLayout(JPOpcao_22Layout);
+        JPOpcao_22Layout.setHorizontalGroup(
+            JPOpcao_22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_22Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(ta_Endereco_Banco, javax.swing.GroupLayout.DEFAULT_SIZE, 480, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        JPOpcao_22Layout.setVerticalGroup(
+            JPOpcao_22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(ta_Endereco_Banco, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        javax.swing.GroupLayout jp_Endereco_BancoLayout = new javax.swing.GroupLayout(jp_Endereco_Banco);
+        jp_Endereco_Banco.setLayout(jp_Endereco_BancoLayout);
+        jp_Endereco_BancoLayout.setHorizontalGroup(
+            jp_Endereco_BancoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jp_Endereco_BancoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(JPOpcao_23, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(JPOpcao_22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(28, Short.MAX_VALUE))
+        );
+        jp_Endereco_BancoLayout.setVerticalGroup(
+            jp_Endereco_BancoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addComponent(JPOpcao_23, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(JPOpcao_22, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        JPOpcao_26.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_26.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_26.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_26MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_26MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_26MousePressed(evt);
+            }
+        });
+
+        jTextArea17.setEditable(false);
+        jTextArea17.setColumns(20);
+        jTextArea17.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextArea17.setRows(5);
+        jTextArea17.setText("                        Informe a senha.:");
+        jTextArea17.setBorder(null);
+        jTextArea17.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTextArea17MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jTextArea17MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jTextArea17MousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_26Layout = new javax.swing.GroupLayout(JPOpcao_26);
+        JPOpcao_26.setLayout(JPOpcao_26Layout);
+        JPOpcao_26Layout.setHorizontalGroup(
+            JPOpcao_26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_26Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextArea17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
+        );
+        JPOpcao_26Layout.setVerticalGroup(
+            JPOpcao_26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTextArea17, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        JPOpcao_27.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_27.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_27.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_27MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_27MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_27MousePressed(evt);
+            }
+        });
+
+        taSenhaX.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        taSenhaX.setText("23071354");
+        taSenhaX.setBorder(null);
+        taSenhaX.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                taSenhaXFocusLost(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_27Layout = new javax.swing.GroupLayout(JPOpcao_27);
+        JPOpcao_27.setLayout(JPOpcao_27Layout);
+        JPOpcao_27Layout.setHorizontalGroup(
+            JPOpcao_27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_27Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(taSenhaX, javax.swing.GroupLayout.DEFAULT_SIZE, 301, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        JPOpcao_27Layout.setVerticalGroup(
+            JPOpcao_27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(taSenhaX, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        javax.swing.GroupLayout jPanel27Layout = new javax.swing.GroupLayout(jPanel27);
+        jPanel27.setLayout(jPanel27Layout);
+        jPanel27Layout.setHorizontalGroup(
+            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel27Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(JPOpcao_26, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(JPOpcao_27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(207, Short.MAX_VALUE))
+        );
+        jPanel27Layout.setVerticalGroup(
+            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel27Layout.createSequentialGroup()
+                .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(JPOpcao_27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JPOpcao_26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(1, 1, 1))
+        );
+
+        JPOpcao_32.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_32.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_32.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_32MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_32MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_32MousePressed(evt);
+            }
+        });
+
+        jTextArea19.setEditable(false);
+        jTextArea19.setColumns(20);
+        jTextArea19.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextArea19.setRows(5);
+        jTextArea19.setText("        Informe o nome de usuário.: ");
+        jTextArea19.setBorder(null);
+        jTextArea19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTextArea19MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jTextArea19MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jTextArea19MousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_32Layout = new javax.swing.GroupLayout(JPOpcao_32);
+        JPOpcao_32.setLayout(JPOpcao_32Layout);
+        JPOpcao_32Layout.setHorizontalGroup(
+            JPOpcao_32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_32Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextArea19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
+        );
+        JPOpcao_32Layout.setVerticalGroup(
+            JPOpcao_32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTextArea19, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        JPOpcao_33.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_33.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_33.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_33MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_33MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_33MousePressed(evt);
+            }
+        });
+
+        taNomeUsuarioX.setColumns(20);
+        taNomeUsuarioX.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        taNomeUsuarioX.setRows(5);
+        taNomeUsuarioX.setText("cleilson");
+        taNomeUsuarioX.setBorder(null);
+        taNomeUsuarioX.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                taNomeUsuarioXFocusLost(evt);
+            }
+        });
+        taNomeUsuarioX.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                taNomeUsuarioXMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                taNomeUsuarioXMouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                taNomeUsuarioXMousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_33Layout = new javax.swing.GroupLayout(JPOpcao_33);
+        JPOpcao_33.setLayout(JPOpcao_33Layout);
+        JPOpcao_33Layout.setHorizontalGroup(
+            JPOpcao_33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_33Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(taNomeUsuarioX, javax.swing.GroupLayout.DEFAULT_SIZE, 301, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        JPOpcao_33Layout.setVerticalGroup(
+            JPOpcao_33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(taNomeUsuarioX, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
+        jPanel24.setLayout(jPanel24Layout);
+        jPanel24Layout.setHorizontalGroup(
+            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel24Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(JPOpcao_32, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(JPOpcao_33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel24Layout.setVerticalGroup(
+            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(JPOpcao_32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(JPOpcao_33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        JPOpcao_34.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_34.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_34.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_34MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_34MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_34MousePressed(evt);
+            }
+        });
+
+        jTextArea21.setEditable(false);
+        jTextArea21.setColumns(20);
+        jTextArea21.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextArea21.setRows(5);
+        jTextArea21.setText("                                          URL.:");
+        jTextArea21.setBorder(null);
+        jTextArea21.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTextArea21MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jTextArea21MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jTextArea21MousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_34Layout = new javax.swing.GroupLayout(JPOpcao_34);
+        JPOpcao_34.setLayout(JPOpcao_34Layout);
+        JPOpcao_34Layout.setHorizontalGroup(
+            JPOpcao_34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_34Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextArea21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
+        );
+        JPOpcao_34Layout.setVerticalGroup(
+            JPOpcao_34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTextArea21, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        JPOpcao_35.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_35.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_35.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_35MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_35MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_35MousePressed(evt);
+            }
+        });
+
+        ta_URL.setColumns(20);
+        ta_URL.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        ta_URL.setRows(5);
+        ta_URL.setBorder(null);
+        ta_URL.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                ta_URLFocusLost(evt);
+            }
+        });
+        ta_URL.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                ta_URLMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                ta_URLMouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                ta_URLMousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_35Layout = new javax.swing.GroupLayout(JPOpcao_35);
+        JPOpcao_35.setLayout(JPOpcao_35Layout);
+        JPOpcao_35Layout.setHorizontalGroup(
+            JPOpcao_35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JPOpcao_35Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(ta_URL, javax.swing.GroupLayout.DEFAULT_SIZE, 480, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        JPOpcao_35Layout.setVerticalGroup(
+            JPOpcao_35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(ta_URL, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
+        jPanel32.setLayout(jPanel32Layout);
+        jPanel32Layout.setHorizontalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel32Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(JPOpcao_34, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(JPOpcao_35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(18, Short.MAX_VALUE))
+        );
+        jPanel32Layout.setVerticalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel32Layout.createSequentialGroup()
+                .addComponent(JPOpcao_34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 2, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel32Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(JPOpcao_35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
 
         JPOpcao_36.setBackground(new java.awt.Color(255, 255, 255));
         JPOpcao_36.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
@@ -361,10 +1484,116 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
         );
         JPOpcao_36Layout.setVerticalGroup(
             JPOpcao_36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_36Layout.createSequentialGroup()
+            .addComponent(taNomeUsuarioX1, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        JPOpcao_37.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_37.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_37.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_37MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_37MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_37MousePressed(evt);
+            }
+        });
+
+        jTextArea22.setEditable(false);
+        jTextArea22.setColumns(20);
+        jTextArea22.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextArea22.setRows(5);
+        jTextArea22.setText("                                 Timezone.:");
+        jTextArea22.setBorder(null);
+        jTextArea22.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTextArea22MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jTextArea22MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jTextArea22MousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_37Layout = new javax.swing.GroupLayout(JPOpcao_37);
+        JPOpcao_37.setLayout(JPOpcao_37Layout);
+        JPOpcao_37Layout.setHorizontalGroup(
+            JPOpcao_37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_37Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextArea22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
+        );
+        JPOpcao_37Layout.setVerticalGroup(
+            JPOpcao_37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTextArea22, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
+        jPanel33.setLayout(jPanel33Layout);
+        jPanel33Layout.setHorizontalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel33Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(taNomeUsuarioX1, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
+                .addComponent(JPOpcao_37, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(JPOpcao_36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel33Layout.setVerticalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(JPOpcao_36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(JPOpcao_37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        JPOpcao_40.setBackground(new java.awt.Color(255, 255, 255));
+        JPOpcao_40.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
+        JPOpcao_40.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                JPOpcao_40MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                JPOpcao_40MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                JPOpcao_40MousePressed(evt);
+            }
+        });
+
+        jTextArea23.setEditable(false);
+        jTextArea23.setColumns(20);
+        jTextArea23.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextArea23.setRows(5);
+        jTextArea23.setText("                               Separador.:");
+        jTextArea23.setBorder(null);
+        jTextArea23.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTextArea23MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jTextArea23MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jTextArea23MousePressed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout JPOpcao_40Layout = new javax.swing.GroupLayout(JPOpcao_40);
+        JPOpcao_40.setLayout(JPOpcao_40Layout);
+        JPOpcao_40Layout.setHorizontalGroup(
+            JPOpcao_40Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_40Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextArea23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
+        );
+        JPOpcao_40Layout.setVerticalGroup(
+            JPOpcao_40Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTextArea23, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         JPOpcao_38.setBackground(new java.awt.Color(255, 255, 255));
@@ -414,1165 +1643,26 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
         );
         JPOpcao_38Layout.setVerticalGroup(
             JPOpcao_38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_38Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(taSeparador, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
+            .addComponent(taSeparador, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel34Layout = new javax.swing.GroupLayout(jPanel34);
+        jPanel34.setLayout(jPanel34Layout);
+        jPanel34Layout.setHorizontalGroup(
+            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel34Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(JPOpcao_36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(59, 59, 59)
+                .addComponent(JPOpcao_40, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(JPOpcao_38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(rbUser)
-                .addGap(18, 18, 18)
-                .addComponent(rbHome)
-                .addGap(18, 18, 18)
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 213, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(rbUser)
-                    .addComponent(rbHome))
+        jPanel34Layout.setVerticalGroup(
+            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(JPOpcao_40, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanel34Layout.createSequentialGroup()
+                .addComponent(JPOpcao_38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(JPOpcao_38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(JPOpcao_36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        JPOpcao_7.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_7.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_7.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_7MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_7MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_7MousePressed(evt);
-            }
-        });
-
-        jTextArea7.setEditable(false);
-        jTextArea7.setColumns(20);
-        jTextArea7.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jTextArea7.setRows(5);
-        jTextArea7.setText("         Escolha o tipo de conexão.: ");
-        jTextArea7.setBorder(null);
-        jTextArea7.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jTextArea7MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jTextArea7MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jTextArea7MousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_7Layout = new javax.swing.GroupLayout(JPOpcao_7);
-        JPOpcao_7.setLayout(JPOpcao_7Layout);
-        JPOpcao_7Layout.setHorizontalGroup(
-            JPOpcao_7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_7Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea7, javax.swing.GroupLayout.PREFERRED_SIZE, 359, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_7Layout.setVerticalGroup(
-            JPOpcao_7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_7Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea7, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        JPOpcao_25.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_25.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_25.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_25MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_25MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_25MousePressed(evt);
-            }
-        });
-
-        cbTipoConexao.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        cbTipoConexao.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "network", "alone" }));
-        cbTipoConexao.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(201, 239, 237), 1, true));
-        cbTipoConexao.setPreferredSize(new java.awt.Dimension(212, 23));
-        cbTipoConexao.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cbTipoConexaoActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_25Layout = new javax.swing.GroupLayout(JPOpcao_25);
-        JPOpcao_25.setLayout(JPOpcao_25Layout);
-        JPOpcao_25Layout.setHorizontalGroup(
-            JPOpcao_25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_25Layout.createSequentialGroup()
-                .addComponent(cbTipoConexao, javax.swing.GroupLayout.PREFERRED_SIZE, 322, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-        JPOpcao_25Layout.setVerticalGroup(
-            JPOpcao_25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(cbTipoConexao, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 44, Short.MAX_VALUE)
-        );
-
-        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
-        jPanel15.setLayout(jPanel15Layout);
-        jPanel15Layout.setHorizontalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel15Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(JPOpcao_7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(JPOpcao_25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel15Layout.setVerticalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-            .addComponent(JPOpcao_25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(JPOpcao_7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-
-        JPOpcao_9.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_9.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_9.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_9MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_9MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_9MousePressed(evt);
-            }
-        });
-
-        jTextArea8.setEditable(false);
-        jTextArea8.setColumns(20);
-        jTextArea8.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jTextArea8.setRows(5);
-        jTextArea8.setText("            Escolha o tipo de banco.: ");
-        jTextArea8.setBorder(null);
-        jTextArea8.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jTextArea8MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jTextArea8MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jTextArea8MousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_9Layout = new javax.swing.GroupLayout(JPOpcao_9);
-        JPOpcao_9.setLayout(JPOpcao_9Layout);
-        JPOpcao_9Layout.setHorizontalGroup(
-            JPOpcao_9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_9Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea8, javax.swing.GroupLayout.PREFERRED_SIZE, 359, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_9Layout.setVerticalGroup(
-            JPOpcao_9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_9Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea8, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        JPOpcao_24.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_24.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_24.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_24MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_24MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_24MousePressed(evt);
-            }
-        });
-
-        cbTipoBanco.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        cbTipoBanco.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "mysql", "derby", "oracle", "sqlserver", "postgresql", "firebirdsql", "odbc" }));
-        cbTipoBanco.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(201, 239, 237), 1, true));
-        cbTipoBanco.setPreferredSize(new java.awt.Dimension(212, 23));
-        cbTipoBanco.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cbTipoBancoActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_24Layout = new javax.swing.GroupLayout(JPOpcao_24);
-        JPOpcao_24.setLayout(JPOpcao_24Layout);
-        JPOpcao_24Layout.setHorizontalGroup(
-            JPOpcao_24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(cbTipoBanco, javax.swing.GroupLayout.PREFERRED_SIZE, 287, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-        JPOpcao_24Layout.setVerticalGroup(
-            JPOpcao_24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(cbTipoBanco, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 44, Short.MAX_VALUE)
-        );
-
-        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
-        jPanel17.setLayout(jPanel17Layout);
-        jPanel17Layout.setHorizontalGroup(
-            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel17Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(JPOpcao_9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(JPOpcao_24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel17Layout.setVerticalGroup(
-            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-            .addComponent(JPOpcao_9, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(JPOpcao_24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-
-        JPOpcao_10.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_10.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_10.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_10MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_10MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_10MousePressed(evt);
-            }
-        });
-
-        jTextArea9.setEditable(false);
-        jTextArea9.setColumns(20);
-        jTextArea9.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jTextArea9.setRows(5);
-        jTextArea9.setText("         Escolha o driver do banco.: ");
-        jTextArea9.setBorder(null);
-        jTextArea9.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jTextArea9MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jTextArea9MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jTextArea9MousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_10Layout = new javax.swing.GroupLayout(JPOpcao_10);
-        JPOpcao_10.setLayout(JPOpcao_10Layout);
-        JPOpcao_10Layout.setHorizontalGroup(
-            JPOpcao_10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_10Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea9, javax.swing.GroupLayout.PREFERRED_SIZE, 359, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_10Layout.setVerticalGroup(
-            JPOpcao_10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_10Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea9, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        JPOpcao_11.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_11.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_11.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_11MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_11MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_11MousePressed(evt);
-            }
-        });
-
-        cbTipoDriver.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        cbTipoDriver.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "com.mysql.cj.jdbc.Driver", "com.mysql.jdbc.Driver", "org.apache.derby.jdbc.EmbeddedDriver", "org.apache.derby.jdbc.ClientDriver", "oracle.jdbc.driver.OracleDriver", "com.microsoft.sqlserver.jdbc.SQLServerDriver", "org.postgresql.Driver", "org.firebirdsql.jdbc.FBDriver", "sun.jdbc.odbc.JdbcOdbcDriver" }));
-        cbTipoDriver.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(201, 239, 237), 1, true));
-        cbTipoDriver.setPreferredSize(new java.awt.Dimension(212, 23));
-        cbTipoDriver.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cbTipoDriverActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_11Layout = new javax.swing.GroupLayout(JPOpcao_11);
-        JPOpcao_11.setLayout(JPOpcao_11Layout);
-        JPOpcao_11Layout.setHorizontalGroup(
-            JPOpcao_11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(cbTipoDriver, 0, 540, Short.MAX_VALUE)
-        );
-        JPOpcao_11Layout.setVerticalGroup(
-            JPOpcao_11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(cbTipoDriver, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 44, Short.MAX_VALUE)
-        );
-
-        javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
-        jPanel18.setLayout(jPanel18Layout);
-        jPanel18Layout.setHorizontalGroup(
-            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel18Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(JPOpcao_10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(JPOpcao_11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel18Layout.setVerticalGroup(
-            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-            .addComponent(JPOpcao_10, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(JPOpcao_11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-
-        JPOpcao_13.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_13.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_13.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_13MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_13MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_13MousePressed(evt);
-            }
-        });
-
-        jTextArea10.setEditable(false);
-        jTextArea10.setColumns(20);
-        jTextArea10.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jTextArea10.setRows(5);
-        jTextArea10.setText("          Informe o nome do banco.: ");
-        jTextArea10.setBorder(null);
-        jTextArea10.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jTextArea10MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jTextArea10MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jTextArea10MousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_13Layout = new javax.swing.GroupLayout(JPOpcao_13);
-        JPOpcao_13.setLayout(JPOpcao_13Layout);
-        JPOpcao_13Layout.setHorizontalGroup(
-            JPOpcao_13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_13Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea10, javax.swing.GroupLayout.PREFERRED_SIZE, 359, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_13Layout.setVerticalGroup(
-            JPOpcao_13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_13Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea10, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        JPOpcao_12.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_12.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_12.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_12MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_12MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_12MousePressed(evt);
-            }
-        });
-
-        taNomeBanco.setColumns(20);
-        taNomeBanco.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        taNomeBanco.setRows(5);
-        taNomeBanco.setText("Banco_De_Dados");
-        taNomeBanco.setBorder(null);
-        taNomeBanco.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                taNomeBancoFocusLost(evt);
-            }
-        });
-        taNomeBanco.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                taNomeBancoMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                taNomeBancoMouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                taNomeBancoMousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_12Layout = new javax.swing.GroupLayout(JPOpcao_12);
-        JPOpcao_12.setLayout(JPOpcao_12Layout);
-        JPOpcao_12Layout.setHorizontalGroup(
-            JPOpcao_12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_12Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(taNomeBanco, javax.swing.GroupLayout.DEFAULT_SIZE, 301, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_12Layout.setVerticalGroup(
-            JPOpcao_12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_12Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(taNomeBanco, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
-        jPanel21.setLayout(jPanel21Layout);
-        jPanel21Layout.setHorizontalGroup(
-            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel21Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(JPOpcao_13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(JPOpcao_12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel21Layout.setVerticalGroup(
-            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-            .addComponent(JPOpcao_13, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(JPOpcao_12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-
-        JPOpcao_18.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_18.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_18.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_18MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_18MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_18MousePressed(evt);
-            }
-        });
-
-        jTextArea15.setEditable(false);
-        jTextArea15.setColumns(20);
-        jTextArea15.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jTextArea15.setRows(5);
-        jTextArea15.setText("             Informe o ip do servidor.:");
-        jTextArea15.setBorder(null);
-        jTextArea15.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jTextArea15MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jTextArea15MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jTextArea15MousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_18Layout = new javax.swing.GroupLayout(JPOpcao_18);
-        JPOpcao_18.setLayout(JPOpcao_18Layout);
-        JPOpcao_18Layout.setHorizontalGroup(
-            JPOpcao_18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_18Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea15, javax.swing.GroupLayout.DEFAULT_SIZE, 359, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_18Layout.setVerticalGroup(
-            JPOpcao_18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_18Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea15, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        JPOpcao_19.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_19.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_19.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_19MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_19MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_19MousePressed(evt);
-            }
-        });
-
-        taIpServidor.setColumns(20);
-        taIpServidor.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        taIpServidor.setRows(5);
-        taIpServidor.setText("127.0.0.1");
-        taIpServidor.setBorder(null);
-        taIpServidor.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                taIpServidorFocusLost(evt);
-            }
-        });
-        taIpServidor.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                taIpServidorMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                taIpServidorMouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                taIpServidorMousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_19Layout = new javax.swing.GroupLayout(JPOpcao_19);
-        JPOpcao_19.setLayout(JPOpcao_19Layout);
-        JPOpcao_19Layout.setHorizontalGroup(
-            JPOpcao_19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_19Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(taIpServidor, javax.swing.GroupLayout.DEFAULT_SIZE, 300, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_19Layout.setVerticalGroup(
-            JPOpcao_19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_19Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(taIpServidor, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        javax.swing.GroupLayout jpIpServidorLayout = new javax.swing.GroupLayout(jpIpServidor);
-        jpIpServidor.setLayout(jpIpServidorLayout);
-        jpIpServidorLayout.setHorizontalGroup(
-            jpIpServidorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpIpServidorLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(JPOpcao_18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(JPOpcao_19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jpIpServidorLayout.setVerticalGroup(
-            jpIpServidorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-            .addComponent(JPOpcao_18, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(JPOpcao_19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-
-        JPOpcao_21.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_21.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_21.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_21MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_21MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_21MousePressed(evt);
-            }
-        });
-
-        jTextArea18.setEditable(false);
-        jTextArea18.setColumns(20);
-        jTextArea18.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jTextArea18.setRows(5);
-        jTextArea18.setText("        Informe a porta do servidor.:");
-        jTextArea18.setBorder(null);
-        jTextArea18.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jTextArea18MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jTextArea18MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jTextArea18MousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_21Layout = new javax.swing.GroupLayout(JPOpcao_21);
-        JPOpcao_21.setLayout(JPOpcao_21Layout);
-        JPOpcao_21Layout.setHorizontalGroup(
-            JPOpcao_21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_21Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea18, javax.swing.GroupLayout.DEFAULT_SIZE, 359, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_21Layout.setVerticalGroup(
-            JPOpcao_21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_21Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea18, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        JPOpcao_20.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_20.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_20.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_20MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_20MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_20MousePressed(evt);
-            }
-        });
-
-        taPortaServidor.setColumns(20);
-        taPortaServidor.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        taPortaServidor.setRows(5);
-        taPortaServidor.setText("3306");
-        taPortaServidor.setBorder(null);
-        taPortaServidor.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                taPortaServidorFocusLost(evt);
-            }
-        });
-        taPortaServidor.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                taPortaServidorMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                taPortaServidorMouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                taPortaServidorMousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_20Layout = new javax.swing.GroupLayout(JPOpcao_20);
-        JPOpcao_20.setLayout(JPOpcao_20Layout);
-        JPOpcao_20Layout.setHorizontalGroup(
-            JPOpcao_20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_20Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(taPortaServidor, javax.swing.GroupLayout.DEFAULT_SIZE, 301, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_20Layout.setVerticalGroup(
-            JPOpcao_20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_20Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(taPortaServidor, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        javax.swing.GroupLayout jpPortaServidorLayout = new javax.swing.GroupLayout(jpPortaServidor);
-        jpPortaServidor.setLayout(jpPortaServidorLayout);
-        jpPortaServidorLayout.setHorizontalGroup(
-            jpPortaServidorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpPortaServidorLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(JPOpcao_21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(JPOpcao_20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(263, Short.MAX_VALUE))
-        );
-        jpPortaServidorLayout.setVerticalGroup(
-            jpPortaServidorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-            .addComponent(JPOpcao_21, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(JPOpcao_20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-
-        JPOpcao_23.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_23.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_23.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_23MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_23MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_23MousePressed(evt);
-            }
-        });
-
-        jTextArea20.setEditable(false);
-        jTextArea20.setColumns(20);
-        jTextArea20.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jTextArea20.setRows(5);
-        jTextArea20.setText("    Informe o endereço do banco.:");
-        jTextArea20.setBorder(null);
-        jTextArea20.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jTextArea20MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jTextArea20MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jTextArea20MousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_23Layout = new javax.swing.GroupLayout(JPOpcao_23);
-        JPOpcao_23.setLayout(JPOpcao_23Layout);
-        JPOpcao_23Layout.setHorizontalGroup(
-            JPOpcao_23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_23Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea20, javax.swing.GroupLayout.DEFAULT_SIZE, 359, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_23Layout.setVerticalGroup(
-            JPOpcao_23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_23Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea20, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        JPOpcao_22.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_22.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_22.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_22MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_22MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_22MousePressed(evt);
-            }
-        });
-
-        ta_Endereco_Banco.setColumns(20);
-        ta_Endereco_Banco.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        ta_Endereco_Banco.setRows(5);
-        ta_Endereco_Banco.setBorder(null);
-        ta_Endereco_Banco.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                ta_Endereco_BancoFocusLost(evt);
-            }
-        });
-        ta_Endereco_Banco.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                ta_Endereco_BancoMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                ta_Endereco_BancoMouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                ta_Endereco_BancoMousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_22Layout = new javax.swing.GroupLayout(JPOpcao_22);
-        JPOpcao_22.setLayout(JPOpcao_22Layout);
-        JPOpcao_22Layout.setHorizontalGroup(
-            JPOpcao_22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_22Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(ta_Endereco_Banco)
-                .addContainerGap())
-        );
-        JPOpcao_22Layout.setVerticalGroup(
-            JPOpcao_22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_22Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(ta_Endereco_Banco, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        javax.swing.GroupLayout jp_Endereco_BancoLayout = new javax.swing.GroupLayout(jp_Endereco_Banco);
-        jp_Endereco_Banco.setLayout(jp_Endereco_BancoLayout);
-        jp_Endereco_BancoLayout.setHorizontalGroup(
-            jp_Endereco_BancoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jp_Endereco_BancoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(JPOpcao_23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(JPOpcao_22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jp_Endereco_BancoLayout.setVerticalGroup(
-            jp_Endereco_BancoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-            .addComponent(JPOpcao_23, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(JPOpcao_22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-
-        JPOpcao_26.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_26.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_26.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_26MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_26MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_26MousePressed(evt);
-            }
-        });
-
-        jTextArea17.setEditable(false);
-        jTextArea17.setColumns(20);
-        jTextArea17.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jTextArea17.setRows(5);
-        jTextArea17.setText("                        Informe a senha.:");
-        jTextArea17.setBorder(null);
-        jTextArea17.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jTextArea17MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jTextArea17MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jTextArea17MousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_26Layout = new javax.swing.GroupLayout(JPOpcao_26);
-        JPOpcao_26.setLayout(JPOpcao_26Layout);
-        JPOpcao_26Layout.setHorizontalGroup(
-            JPOpcao_26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_26Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea17, javax.swing.GroupLayout.DEFAULT_SIZE, 359, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_26Layout.setVerticalGroup(
-            JPOpcao_26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_26Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea17, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        JPOpcao_27.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_27.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_27.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_27MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_27MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_27MousePressed(evt);
-            }
-        });
-
-        taSenhaX.setText("23071354");
-        taSenhaX.setBorder(null);
-        taSenhaX.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                taSenhaXFocusLost(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_27Layout = new javax.swing.GroupLayout(JPOpcao_27);
-        JPOpcao_27.setLayout(JPOpcao_27Layout);
-        JPOpcao_27Layout.setHorizontalGroup(
-            JPOpcao_27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_27Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(taSenhaX, javax.swing.GroupLayout.DEFAULT_SIZE, 301, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_27Layout.setVerticalGroup(
-            JPOpcao_27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_27Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(taSenhaX, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        javax.swing.GroupLayout jPanel27Layout = new javax.swing.GroupLayout(jPanel27);
-        jPanel27.setLayout(jPanel27Layout);
-        jPanel27Layout.setHorizontalGroup(
-            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel27Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(JPOpcao_26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(JPOpcao_27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel27Layout.setVerticalGroup(
-            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(JPOpcao_26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(JPOpcao_27, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-
-        JPOpcao_32.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_32.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_32.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_32MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_32MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_32MousePressed(evt);
-            }
-        });
-
-        jTextArea19.setEditable(false);
-        jTextArea19.setColumns(20);
-        jTextArea19.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jTextArea19.setRows(5);
-        jTextArea19.setText("        Informe o nome de usuário.: ");
-        jTextArea19.setBorder(null);
-        jTextArea19.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jTextArea19MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jTextArea19MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jTextArea19MousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_32Layout = new javax.swing.GroupLayout(JPOpcao_32);
-        JPOpcao_32.setLayout(JPOpcao_32Layout);
-        JPOpcao_32Layout.setHorizontalGroup(
-            JPOpcao_32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_32Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea19, javax.swing.GroupLayout.PREFERRED_SIZE, 359, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_32Layout.setVerticalGroup(
-            JPOpcao_32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_32Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea19, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        JPOpcao_33.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_33.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_33.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_33MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_33MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_33MousePressed(evt);
-            }
-        });
-
-        taNomeUsuarioX.setColumns(20);
-        taNomeUsuarioX.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        taNomeUsuarioX.setRows(5);
-        taNomeUsuarioX.setText("cleilson");
-        taNomeUsuarioX.setBorder(null);
-        taNomeUsuarioX.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                taNomeUsuarioXFocusLost(evt);
-            }
-        });
-        taNomeUsuarioX.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                taNomeUsuarioXMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                taNomeUsuarioXMouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                taNomeUsuarioXMousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_33Layout = new javax.swing.GroupLayout(JPOpcao_33);
-        JPOpcao_33.setLayout(JPOpcao_33Layout);
-        JPOpcao_33Layout.setHorizontalGroup(
-            JPOpcao_33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_33Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(taNomeUsuarioX, javax.swing.GroupLayout.DEFAULT_SIZE, 301, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_33Layout.setVerticalGroup(
-            JPOpcao_33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_33Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(taNomeUsuarioX, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
-        jPanel24.setLayout(jPanel24Layout);
-        jPanel24Layout.setHorizontalGroup(
-            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel24Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(JPOpcao_32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(JPOpcao_33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel24Layout.setVerticalGroup(
-            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(JPOpcao_32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(JPOpcao_33, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-
-        JPOpcao_34.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_34.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_34.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_34MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_34MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_34MousePressed(evt);
-            }
-        });
-
-        jTextArea21.setEditable(false);
-        jTextArea21.setColumns(20);
-        jTextArea21.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jTextArea21.setRows(5);
-        jTextArea21.setText("                                          URL.:");
-        jTextArea21.setBorder(null);
-        jTextArea21.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jTextArea21MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jTextArea21MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jTextArea21MousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_34Layout = new javax.swing.GroupLayout(JPOpcao_34);
-        JPOpcao_34.setLayout(JPOpcao_34Layout);
-        JPOpcao_34Layout.setHorizontalGroup(
-            JPOpcao_34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_34Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea21, javax.swing.GroupLayout.DEFAULT_SIZE, 359, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        JPOpcao_34Layout.setVerticalGroup(
-            JPOpcao_34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_34Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTextArea21, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        JPOpcao_35.setBackground(new java.awt.Color(255, 255, 255));
-        JPOpcao_35.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 153)));
-        JPOpcao_35.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                JPOpcao_35MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                JPOpcao_35MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                JPOpcao_35MousePressed(evt);
-            }
-        });
-
-        ta_URL.setColumns(20);
-        ta_URL.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        ta_URL.setRows(5);
-        ta_URL.setBorder(null);
-        ta_URL.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                ta_URLFocusLost(evt);
-            }
-        });
-        ta_URL.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                ta_URLMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                ta_URLMouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                ta_URLMousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout JPOpcao_35Layout = new javax.swing.GroupLayout(JPOpcao_35);
-        JPOpcao_35.setLayout(JPOpcao_35Layout);
-        JPOpcao_35Layout.setHorizontalGroup(
-            JPOpcao_35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(JPOpcao_35Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(ta_URL)
-                .addContainerGap())
-        );
-        JPOpcao_35Layout.setVerticalGroup(
-            JPOpcao_35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_35Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(ta_URL, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
-        jPanel32.setLayout(jPanel32Layout);
-        jPanel32Layout.setHorizontalGroup(
-            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel32Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(JPOpcao_34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(JPOpcao_35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel32Layout.setVerticalGroup(
-            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(JPOpcao_34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(JPOpcao_35, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -1582,27 +1672,22 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jp_Endereco_Banco, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addComponent(jPanel21, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jPanel15, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jPanel17, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jPanel18, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jpPortaServidor, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jpIpServidor, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                    .addGap(18, 18, 18)))
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 983, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jPanel24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 18, Short.MAX_VALUE))
-                    .addComponent(jPanel32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jpIpServidor, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanel18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jpPortaServidor, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 614, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jPanel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanel24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jp_Endereco_Banco, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanel33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanel34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(86, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1624,14 +1709,18 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jp_Endereco_Banco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(49, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Criar Properties", jPanel1);
@@ -1678,15 +1767,15 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
             JPOpcao_8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(JPOpcao_8Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTextArea11, javax.swing.GroupLayout.DEFAULT_SIZE, 985, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(jTextArea11, javax.swing.GroupLayout.PREFERRED_SIZE, 897, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(98, Short.MAX_VALUE))
         );
         JPOpcao_8Layout.setVerticalGroup(
             JPOpcao_8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JPOpcao_8Layout.createSequentialGroup()
+            .addGroup(JPOpcao_8Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTextArea11, javax.swing.GroupLayout.DEFAULT_SIZE, 652, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
+                .addComponent(jTextArea11, javax.swing.GroupLayout.PREFERRED_SIZE, 385, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(278, Short.MAX_VALUE))
         );
 
         jScrollPane1.setViewportView(JPOpcao_8);
@@ -1697,11 +1786,11 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel16Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 927, Short.MAX_VALUE))
         );
         jPanel16Layout.setVerticalGroup(
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 593, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 404, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout Properties_CriadoLayout = new javax.swing.GroupLayout(Properties_Criado);
@@ -2249,7 +2338,7 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
             .addGroup(Properties_Criado1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(Properties_Criado1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 1019, Short.MAX_VALUE)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 937, Short.MAX_VALUE)
                     .addGroup(Properties_Criado1Layout.createSequentialGroup()
                         .addComponent(jLabel4)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -2266,7 +2355,7 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
             .addGroup(Properties_Criado1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 60, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(Properties_Criado1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel4)
                     .addGroup(Properties_Criado1Layout.createSequentialGroup()
@@ -2277,7 +2366,7 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
                         .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
                 .addComponent(jpStatus, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(200, Short.MAX_VALUE))
+                .addContainerGap(65, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Testar_Conexão", Properties_Criado1);
@@ -2286,11 +2375,11 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1044, Short.MAX_VALUE)
+            .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 962, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 701, Short.MAX_VALUE)
+            .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 512, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -3375,6 +3464,54 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_JPOpcao_38MousePressed
 
+    private void jTextArea22MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextArea22MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextArea22MouseEntered
+
+    private void jTextArea22MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextArea22MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextArea22MouseExited
+
+    private void jTextArea22MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextArea22MousePressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextArea22MousePressed
+
+    private void JPOpcao_37MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_37MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JPOpcao_37MouseEntered
+
+    private void JPOpcao_37MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_37MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JPOpcao_37MouseExited
+
+    private void JPOpcao_37MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_37MousePressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JPOpcao_37MousePressed
+
+    private void jTextArea23MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextArea23MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextArea23MouseEntered
+
+    private void jTextArea23MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextArea23MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextArea23MouseExited
+
+    private void jTextArea23MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextArea23MousePressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextArea23MousePressed
+
+    private void JPOpcao_40MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_40MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JPOpcao_40MouseEntered
+
+    private void JPOpcao_40MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_40MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JPOpcao_40MouseExited
+
+    private void JPOpcao_40MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JPOpcao_40MousePressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JPOpcao_40MousePressed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel JPOpcao_10;
@@ -3404,7 +3541,9 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
     private javax.swing.JPanel JPOpcao_34;
     private javax.swing.JPanel JPOpcao_35;
     private javax.swing.JPanel JPOpcao_36;
+    private javax.swing.JPanel JPOpcao_37;
     private javax.swing.JPanel JPOpcao_38;
+    private javax.swing.JPanel JPOpcao_40;
     private javax.swing.JPanel JPOpcao_7;
     private javax.swing.JPanel JPOpcao_8;
     private javax.swing.JPanel JPOpcao_9;
@@ -3437,6 +3576,8 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
     private javax.swing.JPanel jPanel25;
     private javax.swing.JPanel jPanel27;
     private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
+    private javax.swing.JPanel jPanel34;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTextArea jTextArea10;
@@ -3451,6 +3592,8 @@ public class Conexao_Com_Banco_De_Dados_Generico extends javax.swing.JPanel {
     private javax.swing.JTextArea jTextArea19;
     private javax.swing.JTextArea jTextArea20;
     private javax.swing.JTextArea jTextArea21;
+    private javax.swing.JTextArea jTextArea22;
+    private javax.swing.JTextArea jTextArea23;
     private javax.swing.JTextArea jTextArea7;
     private javax.swing.JTextArea jTextArea8;
     private javax.swing.JTextArea jTextArea9;
